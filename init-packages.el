@@ -15,37 +15,37 @@
 ;; list of packages to sync
 (setq pfl-packages
       '(
-        anzu
-        auto-complete
-        clean-aindent-mode
+        ;;anzu
+        ;;auto-complete
+        ;;clean-aindent-mode
         ;;company
         ;;company-c-headers
-        company-clang
-        counsel-gtags
-        counsel-projectile
-        dtrt-indent
+        ;;company-clang
+        ;;counsel-gtags
+        ;;counsel-projectile
+        ;;dtrt-indent
         ;;ecb
-        helm
-        helm-ag
-        helm-ls-git
-        helm-gtags
-        helm-projectile
-        helm-swoop
-        iedit
-        ivy
-        ivy-posframe
-        markdown-mode
-        markdown-mode+
+        ;;helm
+        ;;helm-ag
+        ;;helm-ls-git
+        ;;helm-gtags
+        ;;helm-projectile
+        ;;helm-swoop
+        ;;iedit
+        ;;ivy
+        ;;ivy-posframe
+        ;;markdown-mode
+        ;;markdown-mode+
         ;;rainbow-delimiters
         ;;smart-tabs-mode
-        swiper-helm
+        ;;swiper-helm
         ;;undo-tree
         use-package
-        volatile-highlights
-        ws-butler
+        ;;volatile-highlights
+        ;;ws-butler
         ;;xcscope
         ;;yafolding
-        yasnippet
+        ;;yasnippet
         ;;zygospore
         ))
 

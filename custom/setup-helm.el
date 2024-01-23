@@ -1,9 +1,16 @@
+;;(use-package helm-config :ensure t)
+;;(use-package helm-grep :ensure t)
+;;(use-package helm-lib :ensure t)
+
+(use-package helm-ag :ensure t)
+(use-package helm-ls-git :ensure t)
+(use-package helm-gtags :ensure t)
+(use-package helm-projectile :ensure t)
+(use-package helm-swoop :ensure t)
+
 (use-package helm :ensure t
   :init
   (progn
-    (require 'helm-config)
-    (require 'helm-grep)
-    (require 'helm-lib)
     ;; To fix error at compile:
     ;; Error (bytecomp): Forgot to expand macro with-helm-buffer in
     ;; (with-helm-buffer helm-echo-input-in-header-line)

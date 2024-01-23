@@ -97,13 +97,13 @@
 ;; automatically indent when press RET
 
 ;; activate whitespace-mode to view all whitespace characters
-(global-set-key (kbd "C-c w") 'whitespace-mode)
 (windmove-default-keybindings)
 
 ;; whitespace
 (use-package whitespace
   :ensure t
   :config
+  (global-set-key (kbd "C-c w") 'whitespace-mode)
   (setq whitespace-style '(face empty tabs lines-tail trailing))
   (setq whitespace-line-column 100))
 
